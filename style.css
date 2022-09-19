@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+}
+.single-price {
+  height: 100vh;
+  max-width: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
+  margin: auto;
+}
+
+.inner {
+  padding: 0.6rem 1.52rem;
+}
+.upper {
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.upper h1 {
+  color: hsl(179, 62%, 43%);
+  margin-block-end: 0.5rem;
+}
+.days {
+  margin-block-end: 0.5rem;
+  color: hsl(71, 73%, 54%);
+}
+.gain {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.2;
+  margin-block-end: 0.5rem;
+}
+.left {
+  color: white;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.monthly,
+.whyus {
+  margin-block-end: 0.5em;
+}
+.number {
+  font-size: 1.5rem;
+  padding-right: 0.7rem;
+  font-weight: bolder;
+}
+.per {
+  color: rgba(255, 255, 255, 0.445);
+}
+.access {
+  margin-block-start: 0.5em;
+}
+.btn {
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  margin-block-start: 1em;
+}
+.right {
+  color: hsl(204, 43%, 93%);
+  background-color: hsla(179, 69%, 55%, 0.76);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.list-items {
+  list-style: none;
+  line-height: 1.4;
+  font-size: 14.5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .single-price {
+    min-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inner {
+    padding: 1.3rem 2rem;
+  }
+  .lower {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .left,
+  .right {
+    flex-basis: 50%;
+  }
+  .right {
+    height: 100%;
+    border-bottom-left-radius: 0px;
+  }
+}
