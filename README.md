@@ -31,7 +31,7 @@ Desktop-view
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc/hub/responsive-page-using-css-flexbox-CZRJ-f3vlj)
 - Live Site URL: [Live](https://632851eb0c930c17e238ab01--extraordinary-selkie-13a399.netlify.app/)
 
 ## My process
